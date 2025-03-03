@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 34
 
+    namespace: "com.kryptowire.daze"
+
     defaultConfig {
         applicationId "com.kryptowire.daze"
         minSdkVersion 21
