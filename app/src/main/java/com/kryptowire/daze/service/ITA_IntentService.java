@@ -69,7 +69,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.util.Log;
 
 // grant the two development permission for < Android 8.0
