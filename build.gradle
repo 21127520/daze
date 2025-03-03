@@ -7,11 +7,13 @@ allprojects {
 }
 
 buildscript {
+    ext.kotlin_version = '1.8.10'
     repositories {
         google() // Thêm dòng này
         mavenCentral() // Thay thế jcenter
     }
     dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.android.tools.build:gradle:8.4.0' // Cập nhật phiên bản mới nhất
     }
 }
